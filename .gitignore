@@ -1,0 +1,31 @@
+# --- Python Backend ---
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.env
+backend/.venv
+backend/venv
+backend/env
+backend/build/
+backend/dist/
+backend/*.db
+
+# --- Next.js Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Root & System ---
+.DS_Store
+Thumbs.db
+*.log
+travel.db
+travel.db-journal
+.gemini/
+.idea/
+.vscode/
